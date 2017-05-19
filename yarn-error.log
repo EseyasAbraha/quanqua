@@ -1,0 +1,51 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/essu/.composer/vendor/bin
+
+Yarn version: 
+  0.24.4
+
+Node version: 
+  7.10.0
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "quanqua",
+    "version": "0.0.0",
+    "description": "Symfony Standard Edition ========================",
+    "main": "index.js",
+    "directories": {
+      "test": "tests"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/EseyasAbraha/quanqua.git"
+    },
+    "author": "",
+    "license": "BSD-2-Clause",
+    "bugs": {
+      "url": "https://github.com/EseyasAbraha/quanqua/issues"
+    },
+    "dependencies": {
+      "gulp-sass": "~3.1.0",
+      "gulp": "~3.9.1",
+      "gulp-csso": "~3.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/home/essu/.config/yarn/link'
